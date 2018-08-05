@@ -1,0 +1,20 @@
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/debug_inspector-0.0.3/ext/debug_inspector
+/usr/bin/ruby -r ./siteconf20180804-16325-xk2bt8.rb extconf.rb
+creating Makefile
+
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+rm -f 
+rm -f debug_inspector.so  *.o  *.bak mkmf.log .*.time
+
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I.   -fPIC -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions -fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -m64 -o debug_inspector.o -c debug_inspector.c
+rm -f debug_inspector.so
+gcc -shared -o debug_inspector.so debug_inspector.o -L. -L/usr/lib64 -L. -Wl,-z,relro  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -fstack-protector -rdynamic -Wl,-export-dynamic -Wl,-z,relro  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -m64  -m64  -lruby  -lpthread -ldl -lcrypt -lm   -lc
+
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/mkdir -p . ./.gem.20180804-16325-9ows6f
+exit > .sitearchdir.time
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20180804-16325-9ows6f

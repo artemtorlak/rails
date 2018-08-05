@@ -1,0 +1,14 @@
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/json-1.8.6/ext/json
+/usr/bin/ruby -r ./siteconf20180804-32607-pih6jy.rb extconf.rb
+creating Makefile
+
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/json-1.8.6/ext/json
+make "DESTDIR=" clean
+rm -f  *.o  *.bak mkmf.log .*.time
+
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/json-1.8.6/ext/json
+make "DESTDIR="
+make: Цель «all» не требует выполнения команд.
+
+current directory: /home/artemtorlak/workspace/hello_app/vendor/cache/gems/json-1.8.6/ext/json
+make "DESTDIR=" install
