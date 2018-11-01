@@ -1,1 +1,1 @@
-Styding basic concepts of Ruby on Rails
+Studing basic concepts of Ruby on Rails))
